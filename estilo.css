@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2021/01/06/12/33/toyota-5894303_1280.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    background-color: rgba(165, 42, 42, 0.719);
+    border-radius: 15px;
+}
+
+ul {
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+    line-height: 30px;
+    text-align: left;
+    text-shadow: 5px 5px 10px black;
+}
+
+header {
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+
+
+
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 30px;
+    padding: 25px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+h6 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+h1 {
+    font-family: "gang";
+}
+
+h2 {
+    color: white;
+    font-family: "gang";
+    text-shadow: 5px 5px 10px black;
+
+}
+
+
+
+
+@font-face {
+    font-family: "gang";
+    src: url(go3v2.ttf);
+}
+
+.pipi {
+    background-color: rgba(0, 0, 0, 0.541);
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+}
